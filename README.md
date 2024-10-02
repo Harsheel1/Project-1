@@ -1,5 +1,6 @@
 # Project-1
 Deploying AWS EKS Cluster with Terraform
+
 Hello, in this project I have used IaC to create EKS Cluster on AWS using Terraform.
 1. I had to configure Terraform with right configrations to allow this project to happen. This inlcudes giving Terraform my access keys to access AWS. I had to also install kubectl, make sure the right AWS version and Terraform were installed. 
 2. I started to create my code using Terraform, this started with defining the provider, the source and version. This can be seen in the provider.tf file.
